@@ -70,7 +70,7 @@
 - **Outlet:** Float-valve-controlled feed line to Cistern 2
 - **Overflow:** Standard overflow outlet routed to exterior drain (for heavy rain events)
 
-### Cistern 2 — The Thermal Battery
+### Cistern 2 - The Thermal Battery
 - **Size:** 3,000 gallons 
 - **Location:** Indoors, adjacent to Cistern 1 and near HVAC system
 - **Type:** Polyethylene vertical tank or manifolded IBC totes
@@ -91,7 +91,7 @@ Both tanks together hold 6,000 gallons This requires:
 
 ---
 
-## Phase 2 — Heat Exchanger (Immersion Coils)
+## Phase 2 - Heat Exchanger (Immersion Coils)
 
 Three copper coils sit inside Cistern 2 (the thermal battery) so your HVAC loop can dump heat into the water.
 
@@ -171,9 +171,9 @@ Three copper coils sit inside Cistern 2 (the thermal battery) so your HVAC loop 
 
 ---
 
-## Phase 4 — Automation & Sensors
+## Phase 4 - Automation & Sensors
 
-### Sensor Layout — Both Cisterns
+### Sensor Layout - Both Cisterns
 
 | Location | Sensor | Purpose | Trigger |
 |---|---|---|---|
