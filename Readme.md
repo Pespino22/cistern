@@ -9,7 +9,7 @@
 - **Storage capacity (Cistern 2):** ~500,400 BTU (~146.7 kWh)
 - **Temperature swing:** 52°F (fully charged) → 72°F (fully discharged / at room temp)
 - **Cooling runway:** ~49.8 hours from full charge (52°F); ~39.8 hours remaining if water is at 60°F
-- **Recharge method:** Warm water out to plants, cold water in from Cistern 1 — no electricity for refrigeration
+- **Recharge method:** Warm water out to plants, cold water in from Cistern 1 - no electricity for refrigeration
 - **Estimated cost:** ~$6,542 total implementation / ~$1,704–$3,640 DIY
 - **Projected payback:** ~8.5 months on total implementation cost, with ~$8,807/year combined savings (energy + water)
 
@@ -39,13 +39,13 @@
                                   └─────────────────────────────────┘
 ```
 
-**Cistern 1 — The Cold Reserve (Insulated, Indoors)**
+**Cistern 1 - The Cold Reserve (Insulated, Indoors)**
 - 3,000-gallon insulated tank
 - Fed by roof rainwater collection
 - Stores water at ~52°F (insulation keeps it cold indoors)
 - Float-valve feeds cold water into Cistern 2 as the battery level drops
 
-**Cistern 2 — The Thermal Battery (Insulated, Indoors)**
+**Cistern 2 - The Thermal Battery (Insulated, Indoors)**
 - 3,000-gallon insulated tank containing 3 copper immersion coils
 - HVAC loop dumps heat into the water via the coils
 - Warm water (68–72°F) drains to irrigation / vertical farm nutrient tanks
@@ -59,9 +59,9 @@
 
 ---
 
-## Phase 1 — Cistern Setup (Both Tanks)
+## Phase 1 - Cistern Setup (Both Tanks)
 
-### Cistern 1 — The Cold Reserve
+### Cistern 1 - The Cold Reserve
 - **Size:** 3,000 gallons
 - **Location:** Indoors, adjacent to Cistern 2
 - **Type:** Polyethylene vertical tank or manifolded IBC totes
@@ -74,7 +74,7 @@
 - **Size:** 3,000 gallons 
 - **Location:** Indoors, adjacent to Cistern 1 and near HVAC system
 - **Type:** Polyethylene vertical tank or manifolded IBC totes
-- **Insulation:** Same as Cistern 1 — wrap with rigid foam board or spray foam
+- **Insulation:** Same as Cistern 1 - wrap with rigid foam board or spray foam
 - **Access:** Top hatch large enough to lower in 3 copper coils
 - **Inlet:** Float-valve feed from Cistern 1 (cold water in)
 - **Outlet:** Flush valve to irrigation line (warm water out to plants)
@@ -122,7 +122,7 @@ Three copper coils sit inside Cistern 2 (the thermal battery) so your HVAC loop 
 
 ---
 
-## Phase 3 — Plumbing the Flows
+## Phase 3 - Plumbing the Flows
 
 ### Flow 1: Roof → Cistern 1 (Rainwater Collection)
 ```
@@ -151,7 +151,7 @@ Three copper coils sit inside Cistern 2 (the thermal battery) so your HVAC loop 
      ↓ cooled fluid
 [Return to HVAC]
 ```
-- Closed loop — same fluid circulates (water or water/glycol mix)
+- Closed loop - same fluid circulates (water or water/glycol mix)
 - 1/8 HP pump is sufficient for the low flow resistance of ½" coils
 - The only heat source entering Cistern 2 should be through these coils (insulation prevents ambient heat gain)
 
@@ -192,7 +192,7 @@ Three copper coils sit inside Cistern 2 (the thermal battery) so your HVAC loop 
 
 ### Arduino Trigger Logic (Simplified)
 ```
-// CISTERN 2 — Thermal Battery
+// CISTERN 2 - Thermal Battery
 IF cistern2_temp > 70°F:
     OPEN flush valve → drain warm water to irrigation
     // Float valve auto-refills with cold water from Cistern 1
