@@ -166,7 +166,7 @@ Three copper coils sit inside Cistern 2 (the thermal battery) so your HVAC loop 
 - **Battery always has cold water:** Cistern 1 is a dedicated cold reserve, so Cistern 2 is never starved for recharge
 - **Overflow prevention:** irrigation empties Cistern 2  making room for cold input from Cistern 1
 - **Free recharge:** Cold-swap from Cistern 1 resets the thermal battery with zero electricity for refrigeration
-- **Plant benefit:** Water leaves the battery at ~68–70°F, the ideal temperature for nutrient uptake in most crops — no cold shock, no heating cost
+- **Plant benefit:** Water leaves the battery at ~68–70°F, the ideal temperature for nutrient uptake in most crops  no cold shock, no heating cost
 - **Both tanks insulated:** Cistern 1 stays cold (ready to recharge), Cistern 2 only gains heat through the coils (maximizing controllable cooling)
 
 ---
@@ -188,7 +188,7 @@ Three copper coils sit inside Cistern 2 (the thermal battery) so your HVAC loop 
 - **Cistern 2 temp:** 52°F = fully charged → 72°F = fully discharged
 - **At 60°F:** ~300,240 BTU remaining (~39.8 hours of cooling)
 - **Cistern 1 level:** How much cold recharge water is available
-- **Cistern 1 temp:** Confirms reserve is staying cold (~52°F target; alert if above 58°F — insulation may be failing)
+- **Cistern 1 temp:** Confirms reserve is staying cold (~52°F target; alert if above 58°F - insulation may be failing)
 
 ### Arduino Trigger Logic (Simplified)
 ```
