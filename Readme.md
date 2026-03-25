@@ -11,7 +11,7 @@
 - **Cooling runway:** ~49.8 hours from full charge (52°F); ~39.8 hours remaining if water is at 60°F
 - **Recharge method:** Warm water out to plants, cold water in from Cistern 1 - no electricity for refrigeration
 - **Estimated cost:** ~$6,542 total implementation / ~$1,704–$3,640 DIY
-- **Projected payback:** ~8.5 months on total implementation cost, with ~$8,807/year combined savings (energy + water)
+- **Projected payback:** ~8.5 months on total implementation cost, with ~$7,807/year combined savings (energy + water)
 
 ---
 
