@@ -1,4 +1,4 @@
-# DIY Cistern Thermal Battery — Rough Draft Build Outline
+# DIY Cistern Thermal Battery - Rough Draft Build Outline
 
 > **Concept:** Two insulated 3,000-gallon cisterns sit side by side indoors. Cistern 1 collects cold rainwater from the roof and serves as the cold reserve. Cistern 2 is the thermal battery copper immersion(or outside wrapping coils) coils let the HVAC system dump heat into the water, and that warm water is sent to the plants for irrigation. As warm water leaves Cistern 2, cold water flows in from Cistern 1 to recharge the battery. The battery always has cold water ready to steal heat from.
 
@@ -15,7 +15,7 @@
 
 ---
 
-## System Architecture — Two Cisterns Side by Side, Indoors
+## System Architecture - Two Cisterns Side by Side, Indoors
 
 ```
 [Roof Catchment]
